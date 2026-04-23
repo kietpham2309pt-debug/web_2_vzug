@@ -1,0 +1,90 @@
+{
+  "total": 127,
+  "categories": [
+    {
+      "slug": "may-hut-mui",
+      "name": "Máy hút mùi",
+      "icon": "🌬️",
+      "count": 25
+    },
+    {
+      "slug": "lo-hap",
+      "name": "Lò hấp kết hợp",
+      "icon": "💨",
+      "count": 20
+    },
+    {
+      "slug": "lo-nuong",
+      "name": "Lò nướng âm tủ",
+      "icon": "🔥",
+      "count": 16
+    },
+    {
+      "slug": "tu-lanh",
+      "name": "Tủ lạnh",
+      "icon": "❄️",
+      "count": 16
+    },
+    {
+      "slug": "bep-tu",
+      "name": "Bếp từ",
+      "icon": "♨️",
+      "count": 14
+    },
+    {
+      "slug": "ngan-ham-nong",
+      "name": "Ngăn hâm nóng",
+      "icon": "🍽️",
+      "count": 10
+    },
+    {
+      "slug": "tu-ruou",
+      "name": "Tủ rượu vang",
+      "icon": "🍷",
+      "count": 8
+    },
+    {
+      "slug": "bep-gas",
+      "name": "Bếp gas",
+      "icon": "🔥",
+      "count": 5
+    },
+    {
+      "slug": "may-giat-say",
+      "name": "Máy giặt & sấy",
+      "icon": "🧺",
+      "count": 4
+    },
+    {
+      "slug": "may-rua-chen",
+      "name": "Máy rửa chén",
+      "icon": "🧼",
+      "count": 3
+    },
+    {
+      "slug": "supremo",
+      "name": "Bộ sưu tập Supremo",
+      "icon": "⭐",
+      "count": 2
+    },
+    {
+      "slug": "ngan-hut-chan-khong",
+      "name": "Ngăn hút chân không",
+      "icon": "🥡",
+      "count": 2
+    },
+    {
+      "slug": "lo-vi-song",
+      "name": "Lò vi sóng",
+      "icon": "⚡",
+      "count": 2
+    }
+  ],
+  "brands": [
+    {
+      "name": "V-ZUG",
+      "count": 127
+    }
+  ],
+  "updatedAt": "2026-04-21T13:52:03.233Z"
+}
