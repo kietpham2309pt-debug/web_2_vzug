@@ -194,9 +194,11 @@ for (let i = 0; i < rows.length; i++) {
     if (!raw) continue;
     // Some URLs contain `{IMAGE_FORMAT}` placeholder — replace with a real size
     const url = raw.replace(/\{IMAGE_FORMAT\}/g, "large");
-    if (url.startsWith("http://") || url.startsWith("https://")) {
-      images.push(url);
-    }
+    if (!(url.startsWith("http://") || url.startsWith("https://"))) continue;
+    // assets.vzug.com/hcms/* entries in the source Excel are stale (all return 404).
+    // Only www.vzug.com/medias/* actually serves product imagery.
+    if (url.includes("assets.vzug.com/hcms")) continue;
+    images.push(url);
   }
 
   const category = mapCategory(productType);
