@@ -201,11 +201,11 @@ export default function ProductDetailClient({ product, related }: ProductDetailC
 
             {/* Hotline */}
             <a
-              href="tel:02877748885"
+              href="tel:02888875668"
               className="flex items-center justify-center gap-2 w-full py-3 border-2 border-dashed border-[#8d6e63] rounded-xl text-[#8d6e63] font-semibold text-sm hover:bg-[#8d6e63]/5 transition-colors mb-6"
             >
               <Phone className="w-4 h-4" />
-              Hotline Tư Vấn: 028 7774 8885
+              Hotline Tư Vấn: 028 8887 5668
             </a>
 
             {/* Trust Badges */}

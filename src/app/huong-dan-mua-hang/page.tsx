@@ -4,7 +4,7 @@ import { SITE_NAME, SITE_PHONE, SITE_EMAIL, canonicalUrl } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: `Hướng Dẫn Mua Hàng | ${SITE_NAME}`,
-  description: "Hướng dẫn mua hàng sản phẩm V-ZUG chính hãng tại Công ty TNHH K-Homès — đặt hàng, liên hệ, nhận hàng.",
+  description: "Hướng dẫn mua hàng sản phẩm V-ZUG chính hãng tại Công ty TNHH WELLHOME (Việt Nam) — đặt hàng, liên hệ, nhận hàng.",
   alternates: { canonical: canonicalUrl("/huong-dan-mua-hang") },
 };
 
@@ -12,7 +12,7 @@ export default function BuyingGuidePage() {
   return (
     <PolicyPage title="Hướng Dẫn Mua Hàng">
 
-      <p>V-ZUG Công ty TNHH K-Homès hỗ trợ quý khách đặt hàng dễ dàng qua nhiều kênh. Dưới đây là hướng dẫn chi tiết.</p>
+      <p>V-ZUG Công ty TNHH WELLHOME (Việt Nam) hỗ trợ quý khách đặt hàng dễ dàng qua nhiều kênh. Dưới đây là hướng dẫn chi tiết.</p>
 
       <h2>Cách 1: Đặt hàng qua website</h2>
       <ol>
@@ -36,7 +36,7 @@ export default function BuyingGuidePage() {
       <h2>Cách 2: Liên hệ trực tiếp</h2>
       <p>Quý khách có thể liên hệ để được tư vấn và đặt hàng qua:</p>
       <ul>
-        <li><strong>Hotline:</strong> {SITE_PHONE} (miễn phí, Thứ 2 – Chủ Nhật: 8:00 – 18:00)</li>
+        <li><strong>Hotline:</strong> {SITE_PHONE} (9h – 12h, 13h – 18h, T2 – T6) · Hỗ trợ kỹ thuật: 1800 8167 (miễn phí)</li>
         <li><strong>Email:</strong> {SITE_EMAIL}</li>
         <li><strong>Zalo / Facebook:</strong> Nhắn tin qua các kênh mạng xã hội chính thức</li>
       </ul>
@@ -46,12 +46,12 @@ export default function BuyingGuidePage() {
         Quý khách có thể đến trực tiếp showroom để xem và trải nghiệm sản phẩm V-ZUG:
       </p>
       <ul>
-        <li><strong>Địa chỉ:</strong> 10 Đồng Văn Cống, Bình Trưng Tây, Cát Lái, TP.HCM</li>
-        <li><strong>Giờ mở cửa:</strong> Thứ 2 – Chủ Nhật: 8:00 – 18:00</li>
+        <li><strong>Địa chỉ:</strong> Phòng 5.09, Lầu 5, Toà nhà ST Moritz, 1014 Phạm Văn Đồng, P. Hiệp Bình Chánh, TP. Thủ Đức, TP.HCM</li>
+        <li><strong>Giờ mở cửa:</strong> 9h – 12h, 13h – 18h (T2 – T6)</li>
       </ul>
 
       <h2>Phương thức thanh toán</h2>
-      <p>V-ZUG Công ty TNHH K-Homès hỗ trợ các phương thức thanh toán sau:</p>
+      <p>V-ZUG Công ty TNHH WELLHOME (Việt Nam) hỗ trợ các phương thức thanh toán sau:</p>
       <ul>
         <li><strong>Tiền mặt khi nhận hàng (COD):</strong> Thanh toán trực tiếp cho nhân viên giao hàng</li>
         <li><strong>Chuyển khoản ngân hàng:</strong> Thông tin tài khoản sẽ được cung cấp khi xác nhận đơn hàng</li>

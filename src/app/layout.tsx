@@ -90,8 +90,8 @@ export const metadata: Metadata = {
     description:
       "Phân phối thiết bị nhà bếp V-ZUG nhập khẩu chính hãng từ Thụy Sĩ. Bảo hành chính hãng.",
     images: [OG_IMAGE_DEFAULT],
-    creator: "@vzugvn",
-    site: "@vzugvn",
+    creator: "@vzugvietnam",
+    site: "@vzugvietnam",
   },
 
   robots: {

@@ -4,7 +4,7 @@ import { SITE_NAME, SITE_EMAIL, canonicalUrl } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: `Điều Khoản & Điều Kiện Sử Dụng | ${SITE_NAME}`,
-  description: "Điều khoản và điều kiện sử dụng trang web Công ty TNHH K-Homès.",
+  description: "Điều khoản và điều kiện sử dụng trang web Công ty TNHH WELLHOME (Việt Nam).",
   alternates: { canonical: canonicalUrl("/dieu-khoan") },
 };
 
@@ -12,7 +12,7 @@ export default function TermsPage() {
   return (
     <PolicyPage title="Điều Khoản & Điều Kiện Sử Dụng">
       <p>
-        Cảm ơn bạn đã ghé thăm trang web của Công ty TNHH K-Homès. Vui lòng đọc các điều khoản và điều kiện sử dụng trước khi truy cập và sử dụng bất kỳ phần nào của trang web. Bạn nên ngừng sử dụng trang web nếu không đồng ý với các điều khoản này.
+        Cảm ơn bạn đã ghé thăm trang web của Công ty TNHH WELLHOME (Việt Nam). Vui lòng đọc các điều khoản và điều kiện sử dụng trước khi truy cập và sử dụng bất kỳ phần nào của trang web. Bạn nên ngừng sử dụng trang web nếu không đồng ý với các điều khoản này.
       </p>
 
       <h2>1. Quyền sở hữu trí tuệ</h2>

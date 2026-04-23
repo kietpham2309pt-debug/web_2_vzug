@@ -4,7 +4,7 @@ import { SITE_NAME, SITE_PHONE, SITE_EMAIL, canonicalUrl } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: `Câu Hỏi Thường Gặp | ${SITE_NAME}`,
-  description: "Câu hỏi thường gặp về sản phẩm V-ZUG, mua hàng, giao hàng, bảo hành tại Công ty TNHH K-Homès.",
+  description: "Câu hỏi thường gặp về sản phẩm V-ZUG, mua hàng, giao hàng, bảo hành tại Công ty TNHH WELLHOME (Việt Nam).",
   alternates: { canonical: canonicalUrl("/cau-hoi-thuong-gap") },
 };
 
@@ -16,12 +16,12 @@ export default function FAQPage() {
 
       <h3>Sản phẩm trên website có phải hàng chính hãng V-ZUG không?</h3>
       <p>
-        Tất cả sản phẩm tại Công ty TNHH K-Homès đều là hàng <strong>nhập khẩu chính hãng từ V-ZUG Thụy Sĩ (Swiss Made)</strong>, có đầy đủ tem bảo hành, hóa đơn và chứng từ nhập khẩu. Quý khách hoàn toàn yên tâm về nguồn gốc và chất lượng sản phẩm.
+        Tất cả sản phẩm tại Công ty TNHH WELLHOME (Việt Nam) đều là hàng <strong>nhập khẩu chính hãng từ V-ZUG Thụy Sĩ (Swiss Made)</strong>, có đầy đủ tem bảo hành, hóa đơn và chứng từ nhập khẩu. Quý khách hoàn toàn yên tâm về nguồn gốc và chất lượng sản phẩm.
       </p>
 
       <h3>Màu sắc sản phẩm thực tế có giống hình trên web không?</h3>
       <p>
-        Chúng tôi cố gắng hiển thị hình ảnh chính xác nhất. Tuy nhiên, màu sắc có thể khác nhau đôi chút tùy thuộc vào cài đặt màn hình của quý khách. Để xem màu thực tế, quý khách có thể đến trực tiếp showroom tại <strong>10 Đồng Văn Cống, Bình Trưng Tây, Cát Lái, TP.HCM</strong>.
+        Chúng tôi cố gắng hiển thị hình ảnh chính xác nhất. Tuy nhiên, màu sắc có thể khác nhau đôi chút tùy thuộc vào cài đặt màn hình của quý khách. Để xem màu thực tế, quý khách có thể đến trực tiếp showroom tại <strong>Phòng 5.09, Lầu 5, Toà nhà ST Moritz, 1014 Phạm Văn Đồng, P. Hiệp Bình Chánh, TP. Thủ Đức, TP.HCM</strong>.
       </p>
 
       <h3>Giá trên website đã bao gồm VAT chưa?</h3>
@@ -36,7 +36,7 @@ export default function FAQPage() {
 
       <h3>Sau khi đặt hàng bao lâu thì được xác nhận?</h3>
       <p>
-        Nhân viên sẽ liên hệ xác nhận đơn hàng trong vòng <strong>30 phút</strong> (trong giờ làm việc: Thứ 2 – Chủ Nhật, 8:00 – 18:00). Đơn đặt ngoài giờ sẽ được xử lý vào ngày làm việc tiếp theo.
+        Nhân viên sẽ liên hệ xác nhận đơn hàng trong vòng <strong>30 phút</strong> (trong giờ làm việc: 9h – 12h, 13h – 18h, T2 – T6). Đơn đặt ngoài giờ sẽ được xử lý vào ngày làm việc tiếp theo.
       </p>
 
       <h3>Tôi có thể hủy đơn hàng không?</h3>
@@ -98,7 +98,8 @@ export default function FAQPage() {
       <h2>Câu hỏi khác?</h2>
       <p>
         Nếu quý khách có bất kỳ câu hỏi nào khác, vui lòng liên hệ:<br />
-        Hotline: <strong>{SITE_PHONE}</strong> (miễn phí)<br />
+        Hotline: <strong>{SITE_PHONE}</strong> (9h–12h, 13h–18h, T2–T6)<br />
+        Hỗ trợ kỹ thuật: <strong>1800 8167</strong> (miễn phí)<br />
         Email: <strong>{SITE_EMAIL}</strong><br />
         Hoặc gửi tin nhắn qua trang <a href="/lien-he" className="text-[#3e2723] underline">Liên Hệ</a>.
       </p>

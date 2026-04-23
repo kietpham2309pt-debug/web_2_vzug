@@ -435,7 +435,7 @@ export default function AboutVZugPage() {
         </div>
       </section>
 
-      {/* K-Homès — local distributor */}
+      {/* WellHome — local distributor */}
       <section className="bg-[#f2ebdf]">
         <div className="max-w-[1400px] mx-auto px-6 py-20 md:py-28">
           <div className="max-w-3xl mx-auto text-center">
@@ -443,11 +443,11 @@ export default function AboutVZugPage() {
               V-ZUG Tại Việt Nam
             </p>
             <h2 className="font-serif text-3xl md:text-5xl text-[#2b1810] leading-tight tracking-tight mb-6">
-              Công ty TNHH K-Homès<br />
+              Công ty TNHH WELLHOME (Việt Nam)<br />
               <span className="text-[#a0522d]">Nhà phân phối chính thức.</span>
             </h2>
             <p className="text-[15px] md:text-lg text-[#4a3a30] leading-relaxed mb-10">
-              Công ty TNHH K-Homès là nhà phân phối chính thức sản phẩm V-ZUG Thụy Sĩ tại Việt Nam — mang đến dịch vụ tư vấn, giao hàng, lắp đặt và bảo hành chính hãng cho toàn bộ dòng thiết bị nhà bếp cao cấp.
+              Công ty TNHH WELLHOME (Việt Nam) là nhà phân phối chính thức sản phẩm V-ZUG Thụy Sĩ tại Việt Nam — mang đến dịch vụ tư vấn, giao hàng, lắp đặt và bảo hành chính hãng cho toàn bộ dòng thiết bị nhà bếp cao cấp.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 text-left">
               <div className="bg-[#faf6f0] border border-[#e8dfd4] p-6">
@@ -455,7 +455,7 @@ export default function AboutVZugPage() {
                   Showroom
                 </p>
                 <p className="text-[14px] text-[#2b1810] leading-relaxed">
-                  10 Đồng Văn Cống, Bình Trưng Tây, Cát Lái, TP. Hồ Chí Minh
+                  Phòng 5.09, Lầu 5, Toà nhà ST Moritz, 1014 Phạm Văn Đồng, P. Hiệp Bình Chánh, TP. Thủ Đức, TP. Hồ Chí Minh
                 </p>
               </div>
               <div className="bg-[#faf6f0] border border-[#e8dfd4] p-6">

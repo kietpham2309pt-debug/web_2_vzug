@@ -4,7 +4,7 @@ import { SITE_NAME, SITE_PHONE, SITE_EMAIL, canonicalUrl } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: `Chính Sách Bảo Hành | ${SITE_NAME}`,
-  description: "Chính sách và điều kiện bảo hành sản phẩm V-ZUG chính hãng tại Công ty TNHH K-Homès.",
+  description: "Chính sách và điều kiện bảo hành sản phẩm V-ZUG chính hãng tại Công ty TNHH WELLHOME (Việt Nam).",
   alternates: { canonical: canonicalUrl("/chinh-sach-bao-hanh") },
 };
 
@@ -12,7 +12,7 @@ export default function WarrantyPolicyPage() {
   return (
     <PolicyPage title="Chính Sách & Điều Kiện Bảo Hành">
       <p>
-        V-ZUG Công ty TNHH K-Homès cam kết bảo hành chính hãng cho tất cả sản phẩm V-ZUG được phân phối qua hệ thống của chúng tôi. Khách hàng vui lòng kích hoạt bảo hành tại trang web hoặc liên hệ trung tâm dịch vụ.
+        V-ZUG Công ty TNHH WELLHOME (Việt Nam) cam kết bảo hành chính hãng cho tất cả sản phẩm V-ZUG được phân phối qua hệ thống của chúng tôi. Khách hàng vui lòng kích hoạt bảo hành tại trang web hoặc liên hệ trung tâm dịch vụ.
       </p>
 
       <h2>1. Thời hạn bảo hành</h2>

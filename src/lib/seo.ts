@@ -3,10 +3,10 @@ export const BASE_URL =
   process.env.NEXT_PUBLIC_BASE_URL ?? "https://vzug-vietnam.vn";
 
 export const SITE_NAME = "V-ZUG Vietnam";
-export const SITE_PHONE = "028 7774 8885";
-export const SITE_EMAIL = "cskh@khomes.vn";
+export const SITE_PHONE = "028 8887 5668";
+export const SITE_EMAIL = "hotro@wellhome.asia";
 export const SITE_ADDRESS =
-  "10 Đồng Văn Cống, Bình Trưng Tây, Cát Lái, TP. Hồ Chí Minh";
+  "Phòng 5.09, Lầu 5, Toà nhà ST Moritz, Số 1014 Phạm Văn Đồng, Phường Hiệp Bình Chánh, Thành phố Thủ Đức, Thành phố Hồ Chí Minh, Việt Nam";
 
 /** Ảnh OG mặc định — đặt tại /public/og-default.jpg */
 export const OG_IMAGE_DEFAULT = `${BASE_URL}/og-default.jpg`;

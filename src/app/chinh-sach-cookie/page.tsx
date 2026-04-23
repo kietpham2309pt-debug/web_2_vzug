@@ -4,7 +4,7 @@ import { SITE_NAME, canonicalUrl } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: `Chính Sách Cookie | ${SITE_NAME}`,
-  description: "Chính sách Cookie — công nghệ trang web và sử dụng cookie tại Công ty TNHH K-Homès.",
+  description: "Chính sách Cookie — công nghệ trang web và sử dụng cookie tại Công ty TNHH WELLHOME (Việt Nam).",
   alternates: { canonical: canonicalUrl("/chinh-sach-cookie") },
 };
 
@@ -28,7 +28,7 @@ export default function CookiePolicyPage() {
 
       <h2>2. Mục đích sử dụng</h2>
       <p>
-        Thông tin này được thu thập thông qua cookie và các thành phần hoạt động mà Công ty TNHH K-Homès sử dụng để tối ưu hóa trải nghiệm người dùng trên trang web. Chúng tôi không cố gắng xác định danh tính của bạn bằng thông tin này.
+        Thông tin này được thu thập thông qua cookie và các thành phần hoạt động mà Công ty TNHH WELLHOME (Việt Nam) sử dụng để tối ưu hóa trải nghiệm người dùng trên trang web. Chúng tôi không cố gắng xác định danh tính của bạn bằng thông tin này.
       </p>
 
       <h2>3. Quản lý Cookie</h2>
@@ -54,7 +54,7 @@ export default function CookiePolicyPage() {
 
       <h2>6. Liên kết ngoài</h2>
       <p>
-        Trang web có thể bao gồm các liên kết đến các trang web khác không nằm trong Chính sách quyền riêng tư này và Công ty TNHH K-Homès không chịu trách nhiệm. Chúng tôi sẽ không chịu trách nhiệm cho bất kỳ lỗi nhập dữ liệu nào do đăng ký hoặc truyền thông tin cá nhân do bạn cung cấp.
+        Trang web có thể bao gồm các liên kết đến các trang web khác không nằm trong Chính sách quyền riêng tư này và Công ty TNHH WELLHOME (Việt Nam) không chịu trách nhiệm. Chúng tôi sẽ không chịu trách nhiệm cho bất kỳ lỗi nhập dữ liệu nào do đăng ký hoặc truyền thông tin cá nhân do bạn cung cấp.
       </p>
     </PolicyPage>
   );

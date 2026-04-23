@@ -11,7 +11,7 @@ export default function ContactFab() {
       {/* Phone popup */}
       {open && (
         <a
-          href="tel:02877748885"
+          href="tel:02888875668"
           className="flex items-center gap-3 bg-white rounded-2xl shadow-2xl border border-gray-100 px-5 py-3.5
                      hover:shadow-xl transition-all animate-in slide-in-from-bottom-2"
         >
@@ -20,7 +20,7 @@ export default function ContactFab() {
           </div>
           <div>
             <p className="text-xs text-gray-500">Gọi ngay</p>
-            <p className="text-base font-bold text-[#3e2723]">028 7774 8885</p>
+            <p className="text-base font-bold text-[#3e2723]">028 8887 5668</p>
           </div>
         </a>
       )}

@@ -19,8 +19,8 @@ export default function PromoSection() {
     },
     {
       icon: Headphones,
-      title: "Tư Vấn 24/7",
-      desc: "028 7774 8885",
+      title: "Tư Vấn Hotline",
+      desc: "028 8887 5668",
     },
   ];
 

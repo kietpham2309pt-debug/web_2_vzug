@@ -54,7 +54,7 @@ export default function ContactOrderClient() {
             </p>
             <p className="text-gray-500 text-sm mb-8">
               Nhân viên sẽ liên hệ xác nhận đơn hàng trong vòng 30 phút.
-              Cảm ơn bạn đã tin tưởng Công ty TNHH K-Homès!
+              Cảm ơn bạn đã tin tưởng Công ty TNHH WELLHOME (Việt Nam)!
             </p>
             <div className="space-y-3">
               <Link href="/">

@@ -4,7 +4,7 @@ import { SITE_NAME, SITE_PHONE, SITE_EMAIL, canonicalUrl } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: `Vận Chuyển, Lắp Đặt & Đổi Trả | ${SITE_NAME}`,
-  description: "Chính sách vận chuyển, lắp đặt và đổi trả sản phẩm V-ZUG tại Công ty TNHH K-Homès.",
+  description: "Chính sách vận chuyển, lắp đặt và đổi trả sản phẩm V-ZUG tại Công ty TNHH WELLHOME (Việt Nam).",
   alternates: { canonical: canonicalUrl("/chinh-sach-van-chuyen") },
 };
 
@@ -14,7 +14,7 @@ export default function ShippingPolicyPage() {
 
       <h2>1. Chính sách vận chuyển</h2>
       <p>
-        V-ZUG Công ty TNHH K-Homès cung cấp dịch vụ <strong>giao hàng miễn phí</strong> tận nhà cho tất cả đơn hàng từ 5.000.000đ trở lên. Đơn hàng dưới 5.000.000đ sẽ có phí vận chuyển 250.000đ.
+        V-ZUG Công ty TNHH WELLHOME (Việt Nam) cung cấp dịch vụ <strong>giao hàng miễn phí</strong> tận nhà cho tất cả đơn hàng từ 5.000.000đ trở lên. Đơn hàng dưới 5.000.000đ sẽ có phí vận chuyển 250.000đ.
       </p>
       <p>Khi đặt hàng, quý khách vui lòng ghi chú đặc điểm nơi nhận hàng (ví dụ: &quot;tầng 3 không có thang máy&quot;, &quot;chung cư&quot;) để hỗ trợ vận chuyển thuận lợi hơn.</p>
 
@@ -46,7 +46,7 @@ export default function ShippingPolicyPage() {
       <p>Trong vòng <strong>24 giờ</strong> kể từ khi nhận hàng (trừ thứ 7, Chủ Nhật và ngày lễ), đội ngũ lắp đặt sẽ liên hệ quý khách. Nếu không nhận được liên hệ, vui lòng gọi hotline <strong>{SITE_PHONE}</strong>.</p>
 
       <h2>4. Chính sách đổi trả</h2>
-      <p>V-ZUG Công ty TNHH K-Homès hỗ trợ đổi sản phẩm <strong>trong vòng 15 ngày</strong> kể từ ngày nhận hàng, áp dụng cho các trường hợp:</p>
+      <p>V-ZUG Công ty TNHH WELLHOME (Việt Nam) hỗ trợ đổi sản phẩm <strong>trong vòng 15 ngày</strong> kể từ ngày nhận hàng, áp dụng cho các trường hợp:</p>
       <ul>
         <li>Sản phẩm bị lỗi do nhà sản xuất</li>
         <li>Giao sai sản phẩm hoặc sai thông số</li>

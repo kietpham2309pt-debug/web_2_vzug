@@ -39,7 +39,7 @@ export default function ContactClient() {
 
       <div className="max-w-7xl mx-auto px-4 py-8">
         <h1 className="text-2xl font-black text-[#3e2723] mb-2">Liên Hệ Với Chúng Tôi</h1>
-        <p className="text-gray-500 text-sm mb-8">Công ty TNHH K-Homès luôn sẵn sàng hỗ trợ bạn. Hãy liên hệ qua form bên dưới hoặc đến trực tiếp showroom.</p>
+        <p className="text-gray-500 text-sm mb-8">Công ty TNHH WELLHOME (Việt Nam) luôn sẵn sàng hỗ trợ bạn. Hãy liên hệ qua form bên dưới hoặc đến trực tiếp showroom.</p>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Left: Contact Form */}
@@ -133,7 +133,7 @@ export default function ContactClient() {
                   </div>
                   <div>
                     <p className="text-sm font-semibold text-gray-900">Hotline</p>
-                    <a href="tel:02877748885" className="text-sm text-[#8d6e63] hover:underline">028 7774 8885</a>
+                    <a href="tel:02888875668" className="text-sm text-[#8d6e63] hover:underline">028 8887 5668</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
@@ -142,7 +142,7 @@ export default function ContactClient() {
                   </div>
                   <div>
                     <p className="text-sm font-semibold text-gray-900">Email</p>
-                    <a href="mailto:cskh@khomes.vn" className="text-sm text-[#8d6e63] hover:underline">cskh@khomes.vn</a>
+                    <a href="mailto:hotro@wellhome.asia" className="text-sm text-[#8d6e63] hover:underline">hotro@wellhome.asia</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
@@ -151,7 +151,7 @@ export default function ContactClient() {
                   </div>
                   <div>
                     <p className="text-sm font-semibold text-gray-900">Showroom</p>
-                    <p className="text-sm text-gray-600">10 Đồng Văn Cống, Bình Trưng Tây, Cát Lái, TP.HCM</p>
+                    <p className="text-sm text-gray-600">Phòng 5.09, Lầu 5, Toà nhà ST Moritz, 1014 Phạm Văn Đồng, P. Hiệp Bình Chánh, TP. Thủ Đức, TP.HCM</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
@@ -160,7 +160,7 @@ export default function ContactClient() {
                   </div>
                   <div>
                     <p className="text-sm font-semibold text-gray-900">Giờ làm việc</p>
-                    <p className="text-sm text-gray-600">Thứ 2 - Chủ Nhật: 8:00 - 18:00</p>
+                    <p className="text-sm text-gray-600">9h – 12h, 13h – 18h (T2 – T6)</p>
                   </div>
                 </div>
               </div>
@@ -170,18 +170,18 @@ export default function ContactClient() {
           {/* Right: Google Maps */}
           <div className="bg-white rounded-2xl border border-gray-100 overflow-hidden h-fit sticky top-36">
             <div className="p-5 border-b border-gray-100">
-              <h3 className="font-bold text-gray-900">Công ty TNHH K-Homès</h3>
-              <p className="text-sm text-gray-500 mt-1">10 Đồng Văn Cống, Bình Trưng Tây, Cát Lái, TP.HCM</p>
+              <h3 className="font-bold text-gray-900">Công ty TNHH WELLHOME (Việt Nam)</h3>
+              <p className="text-sm text-gray-500 mt-1">Toà nhà ST Moritz, 1014 Phạm Văn Đồng, Hiệp Bình Chánh, Thủ Đức, TP.HCM</p>
             </div>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29803.081138506263!2d106.73444083995184!3d10.78760587584766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317525d9420a8ad1%3A0xb5cfc22b5bb736f2!2zMTAgxJDhu5NuZyBWxINuIEPhu5FuZywgUGjGsOG7nW5nIELDrG5oIFRyxrBuZyBUw6J5LCBDw6F0IEzDoWksIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e1!3m2!1svi!2s!4v1776418881707!5m2!1svi!2s"
+              src="https://www.google.com/maps?q=1014+Ph%E1%BA%A1m+V%C4%83n+%C4%90%E1%BB%93ng,+Hi%E1%BB%87p+B%C3%ACnh+Ch%C3%A1nh,+Th%E1%BB%A7+%C4%90%E1%BB%A9c,+TP.HCM&output=embed"
               width="100%"
               height="480"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Công ty TNHH K-Homès"
+              title="Công ty TNHH WELLHOME (Việt Nam)"
               className="w-full"
             />
           </div>

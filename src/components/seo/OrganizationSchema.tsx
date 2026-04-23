@@ -1,7 +1,6 @@
 import JsonLd from "./JsonLd";
 import {
-  BASE_URL, SITE_NAME, SITE_PHONE, SITE_EMAIL,
-  SITE_ADDRESS, OG_IMAGE_DEFAULT,
+  BASE_URL, SITE_NAME, SITE_PHONE, SITE_EMAIL, OG_IMAGE_DEFAULT,
 } from "@/lib/seo";
 
 /**
@@ -16,6 +15,8 @@ export default function OrganizationSchema() {
         "@type": "Organization",
         "@id": `${BASE_URL}/#organization`,
         name: SITE_NAME,
+        legalName: "CÔNG TY TNHH WELLHOME (VIỆT NAM)",
+        alternateName: ["WellHome", "WellHome Việt Nam", "K-Homès"],
         url: BASE_URL,
         logo: {
           "@type": "ImageObject",
@@ -23,6 +24,9 @@ export default function OrganizationSchema() {
           width: 1200,
           height: 630,
         },
+        foundingDate: "2023-11-03",
+        taxID: "0318140880",
+        vatID: "0318140880",
         contactPoint: [
           {
             "@type": "ContactPoint",
@@ -30,13 +34,20 @@ export default function OrganizationSchema() {
             contactType: "customer service",
             areaServed: "VN",
             availableLanguage: "Vietnamese",
+            hoursAvailable: {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+              opens: "09:00",
+              closes: "18:00",
+            },
           },
         ],
         address: {
           "@type": "PostalAddress",
-          streetAddress: "10 Đồng Văn Cống, Bình Trưng Tây",
-          addressLocality: "Cát Lái",
+          streetAddress: "Phòng 5.09, Lầu 5, Toà nhà ST Moritz, Số 1014 Phạm Văn Đồng",
+          addressLocality: "Phường Hiệp Bình Chánh, Thành phố Thủ Đức",
           addressRegion: "Hồ Chí Minh",
+          postalCode: "700000",
           addressCountry: "VN",
         },
         email: SITE_EMAIL,

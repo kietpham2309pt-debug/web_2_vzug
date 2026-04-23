@@ -102,11 +102,11 @@ export default function Header({ collections = [] }: HeaderProps) {
           </span>
           <div className="flex items-center gap-5">
             <a
-              href="tel:02877748885"
+              href="tel:02888875668"
               className="flex items-center gap-1.5 hover:text-[#c87941] transition-colors"
             >
               <Phone className="w-3 h-3" />
-              028 7774 8885
+              028 8887 5668
             </a>
             <span className="text-[#c87941]">·</span>
             <Link href="/lien-he" className="hover:text-[#c87941] transition-colors">
@@ -137,7 +137,7 @@ export default function Header({ collections = [] }: HeaderProps) {
                   V-ZUG
                 </div>
                 <div className="text-[10px] tracking-[0.3em] uppercase text-[#a0522d] mt-1">
-                  K-Homès · Since 1913
+                  WellHome · Since 1913
                 </div>
               </div>
             </Link>
@@ -383,9 +383,9 @@ export default function Header({ collections = [] }: HeaderProps) {
           </nav>
 
           <div className="px-6 py-5 bg-[#2b1810] text-[#faf6f0] text-xs tracking-[0.12em] uppercase">
-            <a href="tel:02877748885" className="flex items-center gap-2">
+            <a href="tel:02888875668" className="flex items-center gap-2">
               <Phone className="w-3 h-3 text-[#c87941]" />
-              Hotline: 028 7774 8885
+              Hotline: 028 8887 5668
             </a>
           </div>
         </div>

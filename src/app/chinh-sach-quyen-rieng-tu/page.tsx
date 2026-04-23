@@ -4,7 +4,7 @@ import { SITE_NAME, SITE_EMAIL, SITE_PHONE, SITE_ADDRESS, canonicalUrl } from "@
 
 export const metadata: Metadata = {
   title: `Chính Sách Quyền Riêng Tư | ${SITE_NAME}`,
-  description: "Chính sách quyền riêng tư — bảo vệ thông tin cá nhân tại Công ty TNHH K-Homès.",
+  description: "Chính sách quyền riêng tư — bảo vệ thông tin cá nhân tại Công ty TNHH WELLHOME (Việt Nam).",
   alternates: { canonical: canonicalUrl("/chinh-sach-quyen-rieng-tu") },
 };
 
@@ -13,7 +13,7 @@ export default function PrivacyPolicyPage() {
     <PolicyPage title="Chính Sách Quyền Riêng Tư">
       <h2>1. Giới thiệu</h2>
       <p>
-        Bảo vệ thông tin cá nhân của bạn có vai trò quan trọng đối với chúng tôi. Chính sách Quyền riêng tư này phác thảo chính sách và trách nhiệm của Công ty TNHH K-Homès liên quan đến việc thu thập, sử dụng, xử lý và tiết lộ thông tin cá nhân của bạn.
+        Bảo vệ thông tin cá nhân của bạn có vai trò quan trọng đối với chúng tôi. Chính sách Quyền riêng tư này phác thảo chính sách và trách nhiệm của Công ty TNHH WELLHOME (Việt Nam) liên quan đến việc thu thập, sử dụng, xử lý và tiết lộ thông tin cá nhân của bạn.
       </p>
 
       <h2>2. Bảo vệ thông tin cá nhân</h2>
@@ -69,14 +69,14 @@ export default function PrivacyPolicyPage() {
       <p>Trẻ dưới 18 tuổi phải có sự đồng ý của cha mẹ hoặc người giám hộ khi cung cấp thông tin cá nhân.</p>
 
       <h2>11. Thay đổi chính sách</h2>
-      <p>Công ty TNHH K-Homès bảo lưu quyền cập nhật chính sách này theo luật hiện hành. Mọi thay đổi sẽ được thông báo trên trang web.</p>
+      <p>Công ty TNHH WELLHOME (Việt Nam) bảo lưu quyền cập nhật chính sách này theo luật hiện hành. Mọi thay đổi sẽ được thông báo trên trang web.</p>
 
       <h2>12. Luật điều chỉnh</h2>
       <p>Chính sách này được điều chỉnh bởi luật pháp nước Cộng hòa Xã hội Chủ nghĩa Việt Nam.</p>
 
       <h2>13. Liên hệ</h2>
       <p>
-        Công ty TNHH K-Homès<br />
+        Công ty TNHH WELLHOME (Việt Nam)<br />
         Địa chỉ: {SITE_ADDRESS}<br />
         Điện thoại: {SITE_PHONE}<br />
         Email: {SITE_EMAIL}

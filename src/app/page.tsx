@@ -22,7 +22,7 @@ import {
 const PAGE_TITLE =
   "Thiết Bị Nhà Bếp V-ZUG Thụy Sĩ Chính Hãng — Swiss Made Since 1913";
 const PAGE_DESCRIPTION =
-  "Công ty TNHH K-Homès phân phối chính hãng toàn bộ sản phẩm V-ZUG Thụy Sĩ: lò nướng âm tủ, lò hấp kết hợp, tủ lạnh, tủ rượu, máy hút mùi, bếp từ. Bảo hành chính hãng, lắp đặt miễn phí.";
+  "Công ty TNHH WELLHOME (Việt Nam) phân phối chính hãng toàn bộ sản phẩm V-ZUG Thụy Sĩ: lò nướng âm tủ, lò hấp kết hợp, tủ lạnh, tủ rượu, máy hút mùi, bếp từ. Bảo hành chính hãng, lắp đặt miễn phí.";
 
 export const metadata: Metadata = {
   title: PAGE_TITLE,

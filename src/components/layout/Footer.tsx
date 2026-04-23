@@ -40,8 +40,12 @@ export default function Footer() {
           Swiss Made · Since 1913
         </p>
         <p className="max-w-lg mx-auto text-sm text-[#faf6f0]/70 leading-relaxed">
-          Công ty TNHH K-Homès — Nhà phân phối chính thức sản phẩm V-ZUG Thụy Sĩ tại Việt Nam. Lò nướng, lò hấp, tủ lạnh, tủ rượu, máy hút mùi, bếp từ âm tủ.
+          Công ty TNHH WELLHOME (Việt Nam) — Nhà phân phối chính thức sản phẩm V-ZUG Thụy Sĩ tại Việt Nam. Lò nướng, lò hấp, tủ lạnh, tủ rượu, máy hút mùi, bếp từ âm tủ.
         </p>
+        <div className="max-w-lg mx-auto mt-4 text-[11px] text-[#faf6f0]/50 leading-relaxed space-y-0.5">
+          <p>Giấy chứng nhận ĐKDN số 0318140880 do Sở KHĐT TP.HCM cấp ngày 03/11/2023</p>
+          <p>Mã số thuế: 0318140880</p>
+        </div>
       </div>
 
       {/* Middle — 3 columns */}
@@ -56,30 +60,45 @@ export default function Footer() {
               <Phone className="w-4 h-4 text-[#c87941] mt-0.5 flex-shrink-0" />
               <div>
                 <a
-                  href="tel:02877748885"
+                  href="tel:02888875668"
                   className="font-serif text-xl hover:text-[#c87941] transition-colors block"
                 >
-                  028 7774 8885
+                  028 8887 5668
                 </a>
                 <span className="text-xs text-[#faf6f0]/50 tracking-wide">
-                  Tư vấn mua hàng · Phím 1
+                  Hotline · 9h–12h, 13h–18h (T2–T6)
+                </span>
+              </div>
+            </li>
+            <li className="flex items-start gap-3">
+              <Phone className="w-4 h-4 text-[#c87941] mt-0.5 flex-shrink-0" />
+              <div>
+                <a
+                  href="tel:18008167"
+                  className="font-serif text-xl hover:text-[#c87941] transition-colors block"
+                >
+                  1800 8167
+                </a>
+                <span className="text-xs text-[#faf6f0]/50 tracking-wide">
+                  Hỗ trợ kỹ thuật (miễn phí)
                 </span>
               </div>
             </li>
             <li className="flex items-start gap-3">
               <Mail className="w-4 h-4 text-[#c87941] mt-0.5 flex-shrink-0" />
               <a
-                href="mailto:cskh@khomes.vn"
+                href="mailto:hotro@wellhome.asia"
                 className="hover:text-[#c87941] transition-colors"
               >
-                cskh@khomes.vn
+                hotro@wellhome.asia
               </a>
             </li>
             <li className="flex items-start gap-3">
               <MapPin className="w-4 h-4 text-[#c87941] mt-0.5 flex-shrink-0" />
               <span className="text-[#faf6f0]/80 leading-relaxed">
-                10 Đồng Văn Cống, Bình Trưng Tây,<br />
-                Cát Lái, TP. Hồ Chí Minh
+                Phòng 5.09, Lầu 5, Toà nhà ST Moritz,<br />
+                1014 Phạm Văn Đồng, P. Hiệp Bình Chánh,<br />
+                TP. Thủ Đức, TP. Hồ Chí Minh
               </span>
             </li>
           </ul>
@@ -137,7 +156,7 @@ export default function Footer() {
       <div className="border-t border-[#faf6f0]/10">
         <div className="max-w-[1400px] mx-auto px-6 py-6 flex flex-col md:flex-row items-center justify-between gap-3 text-[11px] tracking-[0.1em] uppercase text-[#faf6f0]/50">
           <p>
-            © {new Date().getFullYear()} Công ty TNHH K-Homès · MST 0317763152
+            © {new Date().getFullYear()} Công ty TNHH WELLHOME (Việt Nam) · MST 0318140880
           </p>
           <div className="flex items-center gap-5">
             {policyBottomLinks.map((link) => (
