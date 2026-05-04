@@ -116,9 +116,9 @@ export const metadata: Metadata = {
   },
 
   /** Verification codes (thêm khi có tài khoản Google Search Console) */
-  // verification: {
-  //   google: "your-google-site-verification-code",
-  // },
+  verification: {
+    google: "WN0FcLHm2JmKU3Nr1qUKJcefwfQDjaos-AvATVH-x90",
+  },
 
   /** Không cho các trang clone index nội dung */
   other: {
