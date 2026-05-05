@@ -51,7 +51,7 @@ export default function ProductCard({ product, className }: ProductCardProps) {
             src={product.thumbnail}
             alt={`${product.name}${product.brand ? ` - ${product.brand}` : ""}`}
             fill
-            className="object-contain p-6 md:p-8 group-hover:scale-[1.04] transition-transform duration-700"
+            className="object-contain p-3 md:p-4 group-hover:scale-[1.04] transition-transform duration-700"
             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
           />
         ) : (

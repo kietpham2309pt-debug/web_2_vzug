@@ -26,7 +26,7 @@ export default function ProductGallery({ images, name }: ProductGalleryProps) {
           alt={`${name} - Ảnh sản phẩm ${activeIndex + 1} / ${images.length}`}
           fill
           priority
-          className="object-cover group-hover:scale-105 transition-transform duration-500"
+          className="object-contain p-4 md:p-6 group-hover:scale-[1.03] transition-transform duration-500"
           sizes="(max-width: 768px) 100vw, 50vw"
         />
         <div
@@ -56,7 +56,7 @@ export default function ProductGallery({ images, name }: ProductGalleryProps) {
                 src={img}
                 alt={`${name} thumbnail ${index + 1}`}
                 fill
-                className="object-cover"
+                className="object-contain bg-white p-1"
                 sizes="64px"
               />
             </button>
