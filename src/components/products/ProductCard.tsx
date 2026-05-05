@@ -1,12 +1,12 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { Heart, ArrowUpRight } from "lucide-react";
 import { Product } from "@/types";
 import { formatPrice } from "@/lib/utils";
 import { useCartStore, useWishlistStore } from "@/lib/store";
 import { cn } from "@/lib/utils";
+import ProductImage from "@/components/products/ProductImage";
 
 interface ProductCardProps {
   product: Product;
@@ -46,19 +46,14 @@ export default function ProductCard({ product, className }: ProductCardProps) {
     >
       {/* Image panel — cream background, product contained */}
       <div className="relative aspect-[4/5] bg-[#f2ebdf] overflow-hidden">
-        {product.thumbnail ? (
-          <Image
-            src={product.thumbnail}
-            alt={`${product.name}${product.brand ? ` - ${product.brand}` : ""}`}
-            fill
-            className="object-contain p-3 md:p-4 group-hover:scale-[1.04] transition-transform duration-700"
-            sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-          />
-        ) : (
-          <div className="absolute inset-0 flex items-center justify-center text-[#a0522d] font-serif tracking-widest">
-            V-ZUG
-          </div>
-        )}
+        <ProductImage
+          src={product.thumbnail}
+          alt={`${product.name}${product.brand ? ` - ${product.brand}` : ""}`}
+          variant="inline"
+          className="absolute inset-0 bg-[#f2ebdf]"
+          imageClassName="p-3 md:p-4 group-hover:scale-[1.04] transition-transform duration-700"
+          sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+        />
 
         {/* Badges — minimal, top-left as text tags */}
         <div className="absolute top-4 left-4 flex flex-col gap-1">

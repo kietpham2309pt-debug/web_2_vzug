@@ -1,11 +1,11 @@
 "use client";
 
 import { X, Minus, Plus, ShoppingCart, Trash2 } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 import { useCartStore } from "@/lib/store";
 import { formatPrice } from "@/lib/utils";
 import Button from "@/components/ui/Button";
+import ProductImage from "@/components/products/ProductImage";
 
 export default function CartDrawer() {
   const { items, isOpen, closeCart, removeItem, updateQuantity, getTotalPrice, getTotalItems } =
@@ -61,15 +61,13 @@ export default function CartDrawer() {
             items.map((item) => (
               <div key={item.product.id} className="flex gap-4">
                 {/* Product Image */}
-                <div className="relative w-20 h-20 rounded-lg overflow-hidden bg-gray-50 flex-shrink-0">
-                  <Image
-                    src={item.product.thumbnail}
-                    alt={item.product.name}
-                    fill
-                    className="object-cover"
-                    sizes="80px"
-                  />
-                </div>
+                <ProductImage
+                  src={item.product.thumbnail}
+                  alt={item.product.name}
+                  variant="thumbnail"
+                  className="w-20 h-20 rounded-lg flex-shrink-0"
+                  sizes="80px"
+                />
 
                 {/* Product Info */}
                 <div className="flex-1 min-w-0">

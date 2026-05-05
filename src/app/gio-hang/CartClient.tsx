@@ -1,12 +1,12 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { Minus, Plus, Trash2, ShoppingCart, ArrowLeft } from "lucide-react";
 import { useCartStore } from "@/lib/store";
 import { formatPrice } from "@/lib/utils";
 import Button from "@/components/ui/Button";
 import Breadcrumb from "@/components/ui/Breadcrumb";
+import ProductImage from "@/components/products/ProductImage";
 
 export default function CartPage() {
   const { items, removeItem, updateQuantity, getTotalPrice, getTotalItems, clearCart } =
@@ -73,15 +73,13 @@ export default function CartPage() {
                   className="bg-white rounded-2xl border border-gray-100 p-5 flex gap-4"
                 >
                   {/* Image */}
-                  <div className="relative w-20 h-20 md:w-24 md:h-24 flex-shrink-0 rounded-xl overflow-hidden bg-gray-50">
-                    <Image
-                      src={item.product.thumbnail}
-                      alt={item.product.name}
-                      fill
-                      className="object-cover"
-                      sizes="96px"
-                    />
-                  </div>
+                  <ProductImage
+                    src={item.product.thumbnail}
+                    alt={item.product.name}
+                    variant="thumbnail"
+                    className="w-20 h-20 md:w-24 md:h-24 flex-shrink-0 rounded-xl"
+                    sizes="96px"
+                  />
 
                   {/* Info */}
                   <div className="flex-1 min-w-0">

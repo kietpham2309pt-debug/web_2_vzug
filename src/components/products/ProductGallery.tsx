@@ -1,9 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
-import { ZoomIn } from "lucide-react";
+import { X, ZoomIn } from "lucide-react";
 import { cn } from "@/lib/utils";
+import ProductImage from "@/components/products/ProductImage";
 
 interface ProductGalleryProps {
   images: string[];
@@ -13,6 +13,8 @@ interface ProductGalleryProps {
 export default function ProductGallery({ images, name }: ProductGalleryProps) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [isZoomed, setIsZoomed] = useState(false);
+  const activeImage = images[activeIndex] || "";
+  const imageCount = Math.max(images.length, 1);
 
   return (
     <div className="space-y-3">
@@ -21,12 +23,13 @@ export default function ProductGallery({ images, name }: ProductGalleryProps) {
         className="relative aspect-square rounded-2xl overflow-hidden bg-gray-50 cursor-zoom-in group"
         onClick={() => setIsZoomed(true)}
       >
-        <Image
-          src={images[activeIndex]}
-          alt={`${name} - Ảnh sản phẩm ${activeIndex + 1} / ${images.length}`}
-          fill
+        <ProductImage
+          src={activeImage}
+          alt={`${name} - product image ${activeIndex + 1} of ${imageCount}`}
+          variant="gallery"
           priority
-          className="object-contain p-4 md:p-6 group-hover:scale-[1.03] transition-transform duration-500"
+          className="absolute inset-0"
+          imageClassName="group-hover:scale-[1.03] transition-transform duration-500"
           sizes="(max-width: 768px) 100vw, 50vw"
         />
         <div
@@ -52,11 +55,11 @@ export default function ProductGallery({ images, name }: ProductGalleryProps) {
                   : "ring-1 ring-gray-200 hover:ring-gray-400"
               )}
             >
-              <Image
+              <ProductImage
                 src={img}
                 alt={`${name} thumbnail ${index + 1}`}
-                fill
-                className="object-contain bg-white p-1"
+                variant="thumbnail"
+                className="absolute inset-0"
                 sizes="64px"
               />
             </button>
@@ -71,19 +74,21 @@ export default function ProductGallery({ images, name }: ProductGalleryProps) {
           onClick={() => setIsZoomed(false)}
         >
           <div className="relative max-w-4xl max-h-[90vh] w-full aspect-square">
-            <Image
-              src={images[activeIndex]}
+            <ProductImage
+              src={activeImage}
               alt={name}
-              fill
-              className="object-contain"
+              variant="inline"
+              className="absolute inset-0 bg-transparent"
+              imageClassName="p-0"
               sizes="90vw"
             />
           </div>
           <button
             className="absolute top-4 right-4 text-white bg-white/20 rounded-full w-10 h-10 flex items-center justify-center hover:bg-white/40 transition-colors"
             onClick={() => setIsZoomed(false)}
+            aria-label="Close image preview"
           >
-            ✕
+            <X className="w-5 h-5" />
           </button>
         </div>
       )}

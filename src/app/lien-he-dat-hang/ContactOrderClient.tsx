@@ -1,13 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { CheckCircle, ChevronRight, Phone } from "lucide-react";
 import { useCartStore } from "@/lib/store";
 import { formatPrice } from "@/lib/utils";
 import Button from "@/components/ui/Button";
 import Breadcrumb from "@/components/ui/Breadcrumb";
+import ProductImage from "@/components/products/ProductImage";
 
 type Step = "form" | "success";
 
@@ -196,18 +196,17 @@ export default function ContactOrderClient() {
                 <div className="space-y-3 max-h-64 overflow-y-auto mb-4">
                   {items.map((item) => (
                     <div key={item.product.id} className="flex gap-3">
-                      <div className="relative w-12 h-12 flex-shrink-0 rounded-lg overflow-hidden bg-gray-50">
-                        <Image
-                          src={item.product.thumbnail}
-                          alt={item.product.name}
-                          fill
-                          className="object-cover"
-                          sizes="48px"
-                        />
+                      <ProductImage
+                        src={item.product.thumbnail}
+                        alt={item.product.name}
+                        variant="thumbnail"
+                        className="w-12 h-12 flex-shrink-0 rounded-lg"
+                        sizes="48px"
+                      >
                         <span className="absolute -top-1 -right-1 w-5 h-5 bg-[#3e2723] text-white text-[10px] font-bold rounded-full flex items-center justify-center">
                           {item.quantity}
                         </span>
-                      </div>
+                      </ProductImage>
                       <div className="flex-1 min-w-0">
                         <p className="text-xs font-medium text-gray-900 line-clamp-2">{item.product.name}</p>
                         <p className="text-xs font-bold text-[#3e2723] mt-0.5">
