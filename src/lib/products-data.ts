@@ -209,6 +209,19 @@ export function getCategories(): { name: string; count: number; slug: string }[]
     .sort((a, b) => b.count - a.count);
 }
 
+export function getCategoryBySlug(slug: string): { name: string; count: number; slug: string } | undefined {
+  return getCategories().find((category) => category.slug === slug);
+}
+
+export function getProductsByCategorySlug(slug: string): Product[] {
+  return allProducts.filter((product) => {
+    const productSlug =
+      (product as Product & { categorySlug?: string }).categorySlug ||
+      slugify(product.category);
+    return productSlug === slug;
+  });
+}
+
 export interface CollectionCategorySummary {
   id: string;
   name: string;
@@ -242,7 +255,7 @@ export function getCollectionCategories(): CollectionCategorySummary[] {
         id: slug,
         name: p.category,
         slug,
-        href: `/san-pham?category=${slug}`,
+        href: `/danh-muc/${slug}`,
         productCount: 0,
         sampleImage: "",
       };

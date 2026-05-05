@@ -129,7 +129,7 @@ export default function ProductsClient({
                   {categories.map((cat, index) => (
                     <button
                       key={`${cat.slug}-${index}`}
-                      onClick={() => setParam("category", cat.slug)}
+                      onClick={() => router.push(`/danh-muc/${cat.slug}`)}
                       className={cn(
                         "w-full text-left px-3 py-1.5 rounded-lg text-sm transition-colors flex justify-between gap-2",
                         activeCategory === cat.slug

@@ -31,7 +31,7 @@ export default function ProductDetailClient({ product, related }: ProductDetailC
   const breadcrumbs = [
     { label: "Sản Phẩm", href: "/san-pham" },
     ...(product.category
-      ? [{ label: product.category, href: `/san-pham?category=${slugify(product.category)}` }]
+      ? [{ label: product.category, href: `/danh-muc/${product.categorySlug || slugify(product.category)}` }]
       : []),
     { label: product.name },
   ];

@@ -3,12 +3,12 @@ import { Phone, Mail, MapPin } from "lucide-react";
 
 export default function Footer() {
   const productLinks = [
-    { label: "Lò Nướng Âm Tủ", href: "/san-pham?category=lo-nuong" },
-    { label: "Lò Hấp Kết Hợp", href: "/san-pham?category=lo-hap" },
-    { label: "Tủ Lạnh", href: "/san-pham?category=tu-lanh" },
-    { label: "Tủ Rượu Vang", href: "/san-pham?category=tu-ruou" },
-    { label: "Máy Hút Mùi", href: "/san-pham?category=may-hut-mui" },
-    { label: "Bếp Từ", href: "/san-pham?category=bep-tu" },
+    { label: "Lò Nướng Âm Tủ", href: "/danh-muc/lo-nuong" },
+    { label: "Lò Hấp Kết Hợp", href: "/danh-muc/lo-hap" },
+    { label: "Tủ Lạnh", href: "/danh-muc/tu-lanh" },
+    { label: "Tủ Rượu Vang", href: "/danh-muc/tu-ruou" },
+    { label: "Máy Hút Mùi", href: "/danh-muc/may-hut-mui" },
+    { label: "Bếp Từ", href: "/danh-muc/bep-tu" },
   ];
 
   const supportLinks = [
@@ -17,6 +17,7 @@ export default function Footer() {
     { label: "Chính Sách Bảo Hành", href: "/chinh-sach-bao-hanh" },
     { label: "Hướng Dẫn Mua Hàng", href: "/huong-dan-mua-hang" },
     { label: "Câu Hỏi Thường Gặp", href: "/cau-hoi-thuong-gap" },
+    { label: "Sitemap HTML", href: "/sitemap-html" },
     { label: "Liên Hệ", href: "/lien-he" },
   ];
 

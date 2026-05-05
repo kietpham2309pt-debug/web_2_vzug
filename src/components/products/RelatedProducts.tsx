@@ -24,7 +24,7 @@ export default function RelatedProducts({ products, currentCategory }: RelatedPr
           </h2>
         </div>
         <Link
-          href={`/san-pham?category=${slugify(currentCategory)}`}
+          href={`/danh-muc/${slugify(currentCategory)}`}
           className="flex items-center gap-1.5 text-sm text-[#3e2723] font-semibold hover:text-[#8d6e63] transition-colors"
         >
           Xem Thêm <ArrowRight className="w-4 h-4" />

@@ -369,7 +369,7 @@ export default function Header({ collections = [] }: HeaderProps) {
                 {categories.slice(0, 8).map((cat) => (
                   <li key={cat.id}>
                     <Link
-                      href={`/san-pham?category=${cat.slug}`}
+                      href={`/danh-muc/${cat.slug}`}
                       onClick={() => setIsMobileOpen(false)}
                       className="text-sm text-[#4a3a30] hover:text-[#2b1810] flex items-center justify-between"
                     >

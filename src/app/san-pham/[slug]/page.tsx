@@ -81,7 +81,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
   const breadcrumbItems = [
     { label: "Sản Phẩm", href: "/san-pham" },
     ...(product.category
-      ? [{ label: product.category, href: `/san-pham?category=${slugify(product.category)}` }]
+      ? [{ label: product.category, href: `/danh-muc/${product.categorySlug || slugify(product.category)}` }]
       : []),
     { label: product.name },
   ];

@@ -75,7 +75,7 @@ function Tile({
 
   return (
     <Link
-      href={`/san-pham?category=${cat.slug}`}
+      href={`/danh-muc/${cat.slug}`}
       className={`group relative overflow-hidden bg-[#2b1810] text-[#faf6f0] border border-[#e8dfd4] hover:border-[#2b1810] transition-colors ${className}`}
     >
       <div className="relative w-full h-full">
@@ -193,7 +193,7 @@ export default function CategoryGrid({ categories }: CategoryGridProps) {
             {categories.slice(6).map((cat) => (
               <Link
                 key={cat.slug}
-                href={`/san-pham?category=${cat.slug}`}
+                href={`/danh-muc/${cat.slug}`}
                 className="inline-flex items-center gap-2 px-4 py-2 border border-[#e8dfd4] rounded-full
                            text-sm text-[#2b1810] bg-white hover:bg-[#2b1810] hover:text-[#faf6f0]
                            hover:border-[#2b1810] transition-colors"
