@@ -1,6 +1,13 @@
-/** Cấu hình SEO trung tâm — thay đổi BASE_URL khi deploy */
-export const BASE_URL =
-  process.env.NEXT_PUBLIC_BASE_URL ?? "https://vzug-vietnam.vn";
+/** Cấu hình SEO trung tâm — dùng cho canonical, sitemap.xml và robots.txt */
+const DEFAULT_SITE_URL = "https://vzug.wellhome.asia";
+
+function normalizeSiteUrl(url: string): string {
+  return url.replace(/\/+$/, "");
+}
+
+export const BASE_URL = normalizeSiteUrl(
+  process.env.NEXT_PUBLIC_SITE_URL || DEFAULT_SITE_URL
+);
 
 export const SITE_NAME = "V-ZUG Vietnam";
 export const SITE_PHONE = "028 8887 5668";
